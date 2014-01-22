@@ -1,0 +1,36 @@
+{
+  "uuid": "b830f10d-9e13-427d-8f30-13d72b78942c",
+  "shortName": "Postage",
+  "longName": "Postage",
+  "companyName": "keff.me",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_postage.png"
+      },
+      {
+        "characterRegex": "[:0-9]",
+        "type": "font",
+        "name": "FONT_FUTURA_BOLD_44",
+        "file": "fonts/FuturaStd-Bold.ttf"
+      },
+      {
+        "characterRegex": "[:0-9]",
+        "type": "font",
+        "name": "FONT_FUTURA_MEDIUM_44",
+        "file": "fonts/FuturaStd-Medium.ttf"
+      }
+    ]
+  }
+}
